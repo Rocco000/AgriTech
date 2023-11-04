@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 ./Data/OriginData.csv
+./Data/CleanedData.csv
