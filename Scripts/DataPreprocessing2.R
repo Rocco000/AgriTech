@@ -5,17 +5,17 @@ names(sub_datasets)
 
 name_sub_dataset <- c("BudgetaryTransfers","ConsumerNominalProtectionCoefficient",
                       "ConsumerSingleCommodityTransfers","ConsumptionPrice",
-                      "ExcessFeedCost","ExcessFeedCost(Crops)",
-                      "Excessfeedcost(Livestock)","LevelOfConsumption(AtFarmGate)",
+                      "ExcessFeedCost","ExcessFeedCost_Crops",
+                      "ExcessFeedCost_Livestock","LevelOfConsumption_AtFarmGate",
                       "LevelOfProduction","MarketPriceDifferential",
                       "MarketPriceSupport","OtherTransfersFromConsumers",
                       "PaymentsBasedOnOutput","PaymentsBasedOnOutputPerTonne",
                       "PercentageSingleCommodityTransfers","PriceLevies",
-                      "ProducerNominalProtectionCoefficient","ProducerPrice(AtFarmGate)",
-                      "ProducerSingleCommodityTransfers","ReferencePrice(AtFarmGate)",
-                      "TransfersToConsumersFromTaxpayers(ForCommodities)","TransfersToProducersFromConsumers",             
-                      "TransfersToProducersFromTaxpayers","ValueOfConsumption(AtFarmGate)",
-                      "ValueOfProduction(AtFarmGate)"
+                      "ProducerNominalProtectionCoefficient","ProducerPrice_AtFarmGate",
+                      "ProducerSingleCommodityTransfers","ReferencePrice_AtFarmGate",
+                      "TransfersToConsumersFromTaxpayers_ForCommodities","TransfersToProducersFromConsumers",             
+                      "TransfersToProducersFromTaxpayers","ValueOfConsumption_AtFarmGate",
+                      "ValueOfProduction_AtFarmGate"
                       )
 
 names(sub_datasets)<-name_sub_dataset
