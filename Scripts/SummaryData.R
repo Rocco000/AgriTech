@@ -6,10 +6,87 @@ summary_dataframe<-data.frame(Indicator=character(0),
                               Mean=numeric(0),
                               Third_quartile=numeric(0),
                               Max=numeric(0),
-                              Zero_values=numeric(0))
+                              Zero_values=numeric(0),
+                              Null_values=numeric(0))
 for(selected_indicator in 1:25){
   
-  if(selected_indicator==1){
+  #SUMMARY FOR SELECTED INDICATORS#
+  if(selected_indicator==4){
+    
+    result <- summary(ConsumptionPrice$Value)
+    print(result)
+    zeros <- sum(ConsumptionPrice$Value == 0)
+    print(zeros)
+    na<- sum(is.na(ConsumptionPrice$Value))
+    new_row<-data.frame(Indicator=c("Consumption price"),
+                        Min=c(result[1]),
+                        First_quartile=c(result[2]),
+                        Median=c(result[3]),
+                        Mean=c(result[4]),
+                        Third_quartile=c(result[5]),
+                        Max=c(result[6]),
+                        Zero_values=c(zeros),
+                        Null_values=c(na))
+    summary_dataframe<-rbind(summary_dataframe,new_row)
+    
+  }else if(selected_indicator==8){
+    
+    result <- summary(LevelOfConsumption_AtFarmGate$Value)
+    print(result)
+    zeros <- sum(LevelOfConsumption_AtFarmGate$Value == 0)
+    print(zeros)
+    na<- sum(is.na(LevelOfConsumption_AtFarmGate$Value))
+    new_row<-data.frame(Indicator=c("Level of consumption (at farm gate)"),
+                        Min=c(result[1]),
+                        First_quartile=c(result[2]),
+                        Median=c(result[3]),
+                        Mean=c(result[4]),
+                        Third_quartile=c(result[5]),
+                        Max=c(result[6]),
+                        Zero_values=c(zeros),
+                        Null_values=c(na))
+    summary_dataframe<-rbind(summary_dataframe,new_row)
+    
+  } else if(selected_indicator==9){
+    
+    result <- summary(LevelOfProduction$Value)
+    print(result)
+    zeros <- sum(LevelOfProduction$Value == 0)
+    print(zeros)
+    na<- sum(is.na(LevelOfProduction$Value))
+    new_row<-data.frame(Indicator=c("Level of production"),
+                        Min=c(result[1]),
+                        First_quartile=c(result[2]),
+                        Median=c(result[3]),
+                        Mean=c(result[4]),
+                        Third_quartile=c(result[5]),
+                        Max=c(result[6]),
+                        Zero_values=c(zeros),
+                        Null_values=c(na))
+    summary_dataframe<-rbind(summary_dataframe,new_row)
+    
+  } else if(selected_indicator==18){
+    
+    result <- summary(ProducerPrice_AtFarmGate$Value)
+    print(result)
+    zeros <- sum(ProducerPrice_AtFarmGate$Value == 0)
+    print(zeros)
+    na<- sum(is.na(ProducerPrice_AtFarmGate$Value))
+    new_row<-data.frame(Indicator=c("Producer price (at farm gate)"),
+                        Min=c(result[1]),
+                        First_quartile=c(result[2]),
+                        Median=c(result[3]),
+                        Mean=c(result[4]),
+                        Third_quartile=c(result[5]),
+                        Max=c(result[6]),
+                        Zero_values=c(zeros),
+                        Null_values=c(na))
+    summary_dataframe<-rbind(summary_dataframe,new_row)
+    
+  }
+  
+  #SUMMART FOR ALL INDICATORS
+  'if(selected_indicator==1){
     
     data_euro = subset(BudgetaryTransfers, Unit=="Euro")
     data_euro
@@ -69,6 +146,7 @@ for(selected_indicator in 1:25){
     print(result)
     zeros <- sum(data_euro$Value == 0)
     print(zeros)
+    na<- sum(is.na(data_euro$Value))
     new_row<-data.frame(Indicator=c("Consumption price"),
                         Min=c(result[1]),
                         First_quartile=c(result[2]),
@@ -76,7 +154,8 @@ for(selected_indicator in 1:25){
                         Mean=c(result[4]),
                         Third_quartile=c(result[5]),
                         Max=c(result[6]),
-                        Zero_values=c(zeros))
+                        Zero_values=c(zeros),
+                        Null_values=c(na))
     summary_dataframe<-rbind(summary_dataframe,new_row)
     
   } else if(selected_indicator==5){
@@ -139,6 +218,7 @@ for(selected_indicator in 1:25){
     print(result)
     zeros <- sum(LevelOfConsumption_AtFarmGate$Value == 0)
     print(zeros)
+    na<- sum(is.na(LevelOfConsumption_AtFarmGate$Value))
     new_row<-data.frame(Indicator=c("Level of consumption (at farm gate)"),
                         Min=c(result[1]),
                         First_quartile=c(result[2]),
@@ -146,7 +226,8 @@ for(selected_indicator in 1:25){
                         Mean=c(result[4]),
                         Third_quartile=c(result[5]),
                         Max=c(result[6]),
-                        Zero_values=c(zeros))
+                        Zero_values=c(zeros),
+                        Null_values=c(na))
     summary_dataframe<-rbind(summary_dataframe,new_row)
     
   } else if(selected_indicator==9){
@@ -155,6 +236,7 @@ for(selected_indicator in 1:25){
     print(result)
     zeros <- sum(LevelOfProduction$Value == 0)
     print(zeros)
+    na<- sum(is.na(LevelOfProduction$Value))
     new_row<-data.frame(Indicator=c("Level of production"),
                         Min=c(result[1]),
                         First_quartile=c(result[2]),
@@ -162,7 +244,8 @@ for(selected_indicator in 1:25){
                         Mean=c(result[4]),
                         Third_quartile=c(result[5]),
                         Max=c(result[6]),
-                        Zero_values=c(zeros))
+                        Zero_values=c(zeros),
+                        Null_values=c(na))
     summary_dataframe<-rbind(summary_dataframe,new_row)
     
   } else if(selected_indicator==10){
@@ -313,6 +396,7 @@ for(selected_indicator in 1:25){
     print(result)
     zeros <- sum(data_euro$Value == 0)
     print(zeros)
+    na<- sum(is.na(data_euro$Value))
     new_row<-data.frame(Indicator=c("Producer price (at farm gate)"),
                         Min=c(result[1]),
                         First_quartile=c(result[2]),
@@ -320,7 +404,8 @@ for(selected_indicator in 1:25){
                         Mean=c(result[4]),
                         Third_quartile=c(result[5]),
                         Max=c(result[6]),
-                        Zero_values=c(zeros))
+                        Zero_values=c(zeros),
+                        Null_values=c(na))
     summary_dataframe<-rbind(summary_dataframe,new_row)
     
   } else if(selected_indicator==19){
@@ -449,6 +534,6 @@ for(selected_indicator in 1:25){
                         Zero_values=c(zeros))
     summary_dataframe<-rbind(summary_dataframe,new_row)
     
-  }
+  }'
 }
 write.csv(summary_dataframe, "Data/IndicatorsSummary.csv", row.names = FALSE)
