@@ -6,6 +6,10 @@ cleaned_data <- subset(OriginData, select = selected_features)
 columns <- names(cleaned_data)
 print(columns)
 
-cleaned_data <- subset(cleaned_data, Time %in% c(2010,2021))
+#Extract years of interest
+cleaned_data <- subset(cleaned_data, Time %in% 2010:2021)
+
+#Extract currency of interest
+cleaned_data<- subset(cleaned_data, Unit %in% c("Tonnes","Euro","Percentage","Ratio"))
 
 write.csv(cleaned_data, "./Data/CleanedData.csv", row.names = FALSE)
