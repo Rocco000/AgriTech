@@ -9,7 +9,7 @@ print(columns)
 #Extract years of interest
 cleaned_data <- subset(cleaned_data, Time %in% 2010:2021)
 
-#Extract currency of interest
-cleaned_data<- subset(cleaned_data, Unit %in% c("Tonnes","Euro","Percentage","Ratio"))
+#Extract unit of interest
+cleaned_data<- subset(cleaned_data, Measure %in% c("Tonnes","Euro","Percentage","Ratio"))
 
 write.csv(cleaned_data, "./Data/CleanedData.csv", row.names = FALSE)
