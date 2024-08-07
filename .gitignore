@@ -2,4 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-./Data
+./Data/SubDatasets
+./Data/cleaned_dataset.csv
+./Data/origini_data.csv
