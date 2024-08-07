@@ -9,7 +9,7 @@ source("Scripts/data_exploration_functions/data_exploration_countries_coverage.R
 
 
 # Get only the unique values in country field
-agricultural_data <- data.frame(Country= unique(CleanedData$Country))
+agricultural_data <- data.frame(Country= unique(cleaned_dataset$Country))
 
 # Add continent
 agricultural_data <- add_continent(agricultural_data)
@@ -30,7 +30,7 @@ ggplot(num_countries_per_continent_in_ds, aes(x = Continent, y = Countries_in_da
   geom_bar(stat = "identity") +
   labs(title = "Number of countries per continent in dataset", x = "Continent", y = "Number of countries") +
   theme_minimal() +
-  scale_fill_brewer(palette = "Set1")
+  scale_fill_manual(values = c("Africa" = "red", "Americas" = "blue", "Asia" = "green", "Europe" = "purple", "Oceania" = "orange", "NA" = "grey"))
 
 ggsave("Data/DataExploration/countries_per_continent.png")
 
