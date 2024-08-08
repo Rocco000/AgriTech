@@ -1,5 +1,5 @@
 na_counter_per_year <- function(subdataset){
-  # Contare il numero di NA nella colonna "Value" per ogni anno e indicatore
+  # Count NA values per year
   na_count_per_year_indicator <- aggregate(Value ~ Time + Indicator, data = subdataset, function(x) sum(is.na(x)))
 }
 

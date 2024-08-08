@@ -1,3 +1,6 @@
+#Load the dataset
+final_dataset <- read.csv("./Data/final_dataset.csv")
+
 # Split dataset based on selected Indicators
 sub_datasets <- split(final_dataset, final_dataset$Indicator)
 
