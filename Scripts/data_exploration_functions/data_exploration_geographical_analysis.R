@@ -84,20 +84,20 @@ plot_countries_coverage <- function(dataset, save_path1, save_path2){
   ggsave(save_path2)
 }
 
-main_geographical_analysis <- function(){
+main_geographical_analysis <- function(ds){
   # Get only the unique values in country field
-  agricultural_data <- data.frame(Country= unique(cleaned_dataset$Country))
+  countries_in_ds <- data.frame(Country= unique(ds$Country))
   
   # Add continent
-  agricultural_data <- add_continent(agricultural_data)
+  countries_in_ds <- add_continent(countries_in_ds)
   
   # Check for any unmatched countries
-  unmatched <- agricultural_data[is.na(agricultural_data$Continent), "Country"]
+  unmatched <- countries_in_ds[is.na(countries_in_ds$Continent), "Country"]
   print("Countries with NA value in Continent field:")
   print(unique(unmatched))
   
   # Count the number of countries per continent
-  num_countries_per_continent_in_ds <- get_num_countries_per_continent(agricultural_data, "Countries_in_dataset")
+  num_countries_per_continent_in_ds <- get_num_countries_per_continent(countries_in_ds, "Countries_in_dataset")
   
   print("Number of countries per continent in our dataset:")
   num_countries_per_continent_in_ds 
@@ -113,22 +113,26 @@ main_geographical_analysis <- function(){
   
   # Our dataset contains other countries because the value OECD as country
   # represents 38 countries, instead European Union represents the 5 countries that are not in OECD group
+  oecd <- c("Australia","Austria","Belgium","Canada","Chile","Colombia","Costa Rica","Czech Republic","Denmark","Estonia","Finland","France","Germany","Greece","Hungary","Iceland","Ireland","Israel","Italy","Japan","Latvia","Lithuania","Luxembourg","Mexico","Netherlands","New Zealand","Norway","Poland","Portugal","Slovakia","Slovenia","South Korea","Spain","Sweden","Switzerland","Turkey","United Kingdom","United States")
+  common_countries <- intersect(oecd, countries_in_ds$Country)
+  oecd <- setdiff(oecd, common_countries)
+  
   oecd_countries <- data.frame(
-    Country = c("Australia","Austria","Belgium","Canada","Chile","Colombia","Costa Rica","Czech Republic","Denmark","Estonia","Finland","France","Germany","Greece","Hungary","Iceland","Ireland","Israel","Italy","Japan","Latvia","Lithuania","Luxembourg","Mexico","Netherlands","New Zealand","Norway","Poland","Portugal","Slovakia","Slovenia","South Korea","Spain","Sweden","Switzerland","Turkey","United Kingdom","United States"),
-    Continent = rep(NA,38)
+    Country = oecd,
+    Continent = rep(NA,length(oecd))
   )
   
   # Remove the tuples with OECD or European Union as value in country field
-  agricultural_data <- agricultural_data %>% filter(Country!="OECD - Total" & Country!="European Union")
+  countries_in_ds <- countries_in_ds %>% filter(Country!="OECD - Total" & Country!="European Union")
   
   # Substitute the OECD values with the countries name which are member of OECD
-  agricultural_data <- rbind(agricultural_data, oecd_countries)
+  countries_in_ds <- rbind(countries_in_ds, oecd_countries)
   
   # Re-add the continent for this new values
-  agricultural_data <- add_continent(agricultural_data)
+  countries_in_ds <- add_continent(countries_in_ds)
   
   # Re-count the number of countries per continent in our dataset
-  num_countries_per_continent_in_ds <- get_num_countries_per_continent(agricultural_data, "Countries_in_dataset")
+  num_countries_per_continent_in_ds <- get_num_countries_per_continent(countries_in_ds, "Countries_in_dataset")
   
   # Re-plot
   ggplot(num_countries_per_continent_in_ds, aes(x = Continent, y = Countries_in_dataset, fill=Continent)) +
