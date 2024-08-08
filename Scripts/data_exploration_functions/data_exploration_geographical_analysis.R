@@ -53,7 +53,7 @@ plot_countries_coverage <- function(dataset, save_path1, save_path2){
              stat = "identity", position = position_stack(reverse = TRUE)) +
     geom_text(data = plot_data %>% filter(dataset == "Total_countries"), 
               aes(x = Continent, y = count, label = count), 
-              position = position_stack(vjust = 0.5), 
+              position = position_stack(vjust = 0.7, reverse = TRUE), 
               color = "white", size = 3.5) +
     geom_text(data = plot_data %>% filter(dataset == "Countries_in_dataset"), 
               aes(x = Continent, y = count, label = count), 
