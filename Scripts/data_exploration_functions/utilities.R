@@ -17,3 +17,9 @@ get_indicators <- function(ds){
 get_years <- function(ds){
   return(unique(ds$Time))
 }
+
+# Add the continent column to dataset
+add_continent <- function(dataset){
+  dataset_with_continent <- dataset %>% mutate(Continent = countrycode(Country, "country.name", "continent"))
+  return(dataset_with_continent)
+}

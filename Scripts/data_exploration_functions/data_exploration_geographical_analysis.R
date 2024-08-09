@@ -5,12 +5,7 @@ library(ggplot2)
 library(tidyr)
 library(rlang)
 library(RColorBrewer)
-
-# Add the continent column to dataset
-add_continent <- function(dataset){
-  dataset_with_continent <- dataset %>% mutate(Continent = countrycode(Country, "country.name", "continent"))
-  return(dataset_with_continent)
-}
+source("Scripts/data_exploration_functions/utilities.R")
 
 # Get the number of countries per continent
 get_num_countries_per_continent <- function(dataset, field_sum_name){
