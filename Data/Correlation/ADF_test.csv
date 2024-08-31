@@ -1,0 +1,651 @@
+"Country","Indicator","Commodity","p_value"
+"Australia","Level of production","Wheat",0.36722643393626
+"Australia","Level of production","Oats",0.0806529469996142
+"Australia","Level of production","Rice",0.629156924288174
+"Australia","Level of production","Sugar",0.585968987034633
+"Australia","Level of production","Soybeans",0.632764457314992
+"Australia","Level of production","Beef and veal",0.9748861320522
+"Australia","Level of consumption (at farm gate)","Wheat",0.480752590240587
+"Australia","Level of consumption (at farm gate)","Oats",0.370588567839832
+"Australia","Level of consumption (at farm gate)","Rice",0.4666865891826
+"Australia","Level of consumption (at farm gate)","Sugar",0.0593970774474751
+"Australia","Level of consumption (at farm gate)","Soybeans",0.0395331139434922
+"Australia","Level of consumption (at farm gate)","Beef and veal",0.979037572223458
+"Australia","Producer price (at farm gate)","Wheat",0.512624135550872
+"Australia","Producer price (at farm gate)","Oats",0.118723813573038
+"Australia","Producer price (at farm gate)","Rice",0.429532462814031
+"Australia","Producer price (at farm gate)","Sugar",0.780304294982935
+"Australia","Producer price (at farm gate)","Soybeans",0.594689553945988
+"Australia","Producer price (at farm gate)","Beef and veal",0.0441075786680116
+"Australia","Consumption price","Wheat",0.512624135550872
+"Australia","Consumption price","Oats",0.118723813573038
+"Australia","Consumption price","Rice",0.429532462814031
+"Australia","Consumption price","Sugar",0.780304294982935
+"Australia","Consumption price","Soybeans",0.594689553945988
+"Australia","Consumption price","Beef and veal",0.0441075786680116
+"Australia","Market Price Differential","Oats",NA
+"Australia","Market Price Differential","Rice",NA
+"Australia","Market Price Differential","Sugar",NA
+"Australia","Market Price Differential","Soybeans",NA
+"Australia","Market Price Differential","Beef and veal",NA
+"Canada","Level of production","Wheat",0.270489906144518
+"Canada","Level of production","Maize",0.944928530692504
+"Canada","Level of production","Oats",0.518161958217922
+"Canada","Level of production","Soybeans",0.924188702028066
+"Canada","Level of production","Beef and veal",0.928127575376337
+"Canada","Level of consumption (at farm gate)","Wheat",0.727514319348773
+"Canada","Level of consumption (at farm gate)","Maize",0.489070829007379
+"Canada","Level of consumption (at farm gate)","Oats",0.672400385124801
+"Canada","Level of consumption (at farm gate)","Soybeans",0.650073509244727
+"Canada","Level of consumption (at farm gate)","Beef and veal",0.816984895137314
+"Canada","Producer price (at farm gate)","Wheat",0.886123623817964
+"Canada","Producer price (at farm gate)","Maize",0.599455382797938
+"Canada","Producer price (at farm gate)","Oats",0.525228430207978
+"Canada","Producer price (at farm gate)","Soybeans",0.781697559822995
+"Canada","Producer price (at farm gate)","Beef and veal",0.848092470799962
+"Canada","Consumption price","Wheat",0.886123623817964
+"Canada","Consumption price","Maize",0.599455382797938
+"Canada","Consumption price","Oats",0.525228430207978
+"Canada","Consumption price","Soybeans",0.781697559822995
+"Canada","Consumption price","Beef and veal",0.848092470799962
+"Canada","Market Price Differential","Maize",NA
+"Canada","Market Price Differential","Oats",NA
+"Canada","Market Price Differential","Soybeans",NA
+"Canada","Market Price Differential","Beef and veal",0.730900565018158
+"Japan","Level of production","Wheat",0.346880029584842
+"Japan","Level of production","Rice",0.935765343286806
+"Japan","Level of production","Sugar",0.639455490365029
+"Japan","Level of production","Soybeans",0.430618055941936
+"Japan","Level of production","Beef and veal",0.245568479744981
+"Japan","Level of consumption (at farm gate)","Wheat",0.859592530464383
+"Japan","Level of consumption (at farm gate)","Rice",0.932307212124832
+"Japan","Level of consumption (at farm gate)","Sugar",0.99
+"Japan","Level of consumption (at farm gate)","Soybeans",0.342723072733464
+"Japan","Level of consumption (at farm gate)","Beef and veal",0.0736908790624055
+"Japan","Producer price (at farm gate)","Wheat",0.537724813147434
+"Japan","Producer price (at farm gate)","Rice",0.447379981396682
+"Japan","Producer price (at farm gate)","Sugar",0.01
+"Japan","Producer price (at farm gate)","Soybeans",0.159721722019551
+"Japan","Producer price (at farm gate)","Beef and veal",0.396727638139329
+"Japan","Consumption price","Wheat",0.537724813147434
+"Japan","Consumption price","Rice",0.447379981396682
+"Japan","Consumption price","Sugar",0.01
+"Japan","Consumption price","Soybeans",0.159721722019551
+"Japan","Consumption price","Beef and veal",0.396727638139329
+"Japan","Market Price Differential","Rice",0.220824107726024
+"Japan","Market Price Differential","Sugar",0.288271901660665
+"Japan","Market Price Differential","Soybeans",NA
+"Japan","Market Price Differential","Beef and veal",0.396727638083554
+"Mexico","Level of production","Wheat",0.0208021771255904
+"Mexico","Level of production","Maize",0.539090766367303
+"Mexico","Level of production","Rice",0.614221234199242
+"Mexico","Level of production","Sugar",0.301022627448753
+"Mexico","Level of production","Soybeans",0.82908884115403
+"Mexico","Level of production","Beef and veal",0.629096700041282
+"Mexico","Level of production","Coffee",0.407984191628036
+"Mexico","Level of consumption (at farm gate)","Wheat",0.184332396195005
+"Mexico","Level of consumption (at farm gate)","Maize",0.0995183690299693
+"Mexico","Level of consumption (at farm gate)","Rice",0.99
+"Mexico","Level of consumption (at farm gate)","Sugar",0.76769173380415
+"Mexico","Level of consumption (at farm gate)","Soybeans",0.99
+"Mexico","Level of consumption (at farm gate)","Beef and veal",0.716260766001877
+"Mexico","Level of consumption (at farm gate)","Coffee",0.0458731275953631
+"Mexico","Producer price (at farm gate)","Wheat",0.671837018942317
+"Mexico","Producer price (at farm gate)","Maize",0.929340954948312
+"Mexico","Producer price (at farm gate)","Rice",0.420427999358898
+"Mexico","Producer price (at farm gate)","Sugar",0.0197312398178168
+"Mexico","Producer price (at farm gate)","Soybeans",0.64589393716044
+"Mexico","Producer price (at farm gate)","Beef and veal",0.549599819824893
+"Mexico","Producer price (at farm gate)","Coffee",0.918083496768346
+"Mexico","Consumption price","Wheat",0.65797033712311
+"Mexico","Consumption price","Maize",0.929340954948312
+"Mexico","Consumption price","Rice",0.108026421734773
+"Mexico","Consumption price","Sugar",0.0197312398178168
+"Mexico","Consumption price","Soybeans",0.643390563505862
+"Mexico","Consumption price","Beef and veal",0.549599819824893
+"Mexico","Consumption price","Coffee",0.918083496768346
+"Mexico","Market Price Differential","Maize",NA
+"Mexico","Market Price Differential","Rice",0.82224822884999
+"Mexico","Market Price Differential","Sugar",0.630400222301573
+"Mexico","Market Price Differential","Soybeans",0.503858964077115
+"Mexico","Market Price Differential","Beef and veal",NA
+"Mexico","Market Price Differential","Coffee",NA
+"New Zealand","Level of production","Wheat",0.239401740585674
+"New Zealand","Level of production","Maize",0.530791800184976
+"New Zealand","Level of production","Oats",0.277971398222464
+"New Zealand","Level of production","Beef and veal",0.972686549678079
+"New Zealand","Level of consumption (at farm gate)","Wheat",0.608880283188513
+"New Zealand","Level of consumption (at farm gate)","Maize",0.765723488470059
+"New Zealand","Level of consumption (at farm gate)","Oats",0.385213090298796
+"New Zealand","Level of consumption (at farm gate)","Beef and veal",0.316797926123759
+"New Zealand","Producer price (at farm gate)","Wheat",0.446852669623431
+"New Zealand","Producer price (at farm gate)","Maize",0.636408289508404
+"New Zealand","Producer price (at farm gate)","Oats",0.81023641055241
+"New Zealand","Producer price (at farm gate)","Beef and veal",0.799320482714957
+"New Zealand","Consumption price","Wheat",0.446852669623431
+"New Zealand","Consumption price","Maize",0.636408289508404
+"New Zealand","Consumption price","Oats",0.81023641055241
+"New Zealand","Consumption price","Beef and veal",0.799320482714957
+"New Zealand","Market Price Differential","Maize",NA
+"New Zealand","Market Price Differential","Oats",NA
+"New Zealand","Market Price Differential","Beef and veal",NA
+"Norway","Level of production","Wheat",0.392577877158788
+"Norway","Level of production","Oats",0.126218049371112
+"Norway","Level of production","Beef and veal",0.858660503154629
+"Norway","Level of consumption (at farm gate)","Wheat",0.794186764849971
+"Norway","Level of consumption (at farm gate)","Oats",0.721030150346108
+"Norway","Level of consumption (at farm gate)","Beef and veal",0.471504278062385
+"Norway","Producer price (at farm gate)","Wheat",0.682958048925947
+"Norway","Producer price (at farm gate)","Oats",0.774666704514272
+"Norway","Producer price (at farm gate)","Beef and veal",0.970476859170609
+"Norway","Consumption price","Wheat",0.845963326434016
+"Norway","Consumption price","Oats",0.774666704514272
+"Norway","Consumption price","Beef and veal",0.970476859170609
+"Norway","Market Price Differential","Oats",0.458861002756596
+"Norway","Market Price Differential","Beef and veal",0.900217838363137
+"Switzerland","Level of production","Wheat",0.424756815115454
+"Switzerland","Level of production","Maize",0.99
+"Switzerland","Level of production","Sugar",0.477321942477759
+"Switzerland","Level of production","Beef and veal",0.599043806352192
+"Switzerland","Level of consumption (at farm gate)","Wheat",0.879288451035639
+"Switzerland","Level of consumption (at farm gate)","Maize",0.430851287233327
+"Switzerland","Level of consumption (at farm gate)","Sugar",0.599181237125537
+"Switzerland","Level of consumption (at farm gate)","Beef and veal",0.611997966488959
+"Switzerland","Producer price (at farm gate)","Wheat",0.62853138983763
+"Switzerland","Producer price (at farm gate)","Maize",0.515007248865243
+"Switzerland","Producer price (at farm gate)","Sugar",0.392398782612045
+"Switzerland","Producer price (at farm gate)","Beef and veal",0.321343937330924
+"Switzerland","Consumption price","Wheat",0.62853138983763
+"Switzerland","Consumption price","Maize",0.515007248865243
+"Switzerland","Consumption price","Sugar",0.392398782612045
+"Switzerland","Consumption price","Beef and veal",0.321343937330924
+"Switzerland","Market Price Differential","Maize",0.0387501714864913
+"Switzerland","Market Price Differential","Sugar",0.425555640019903
+"Switzerland","Market Price Differential","Beef and veal",0.702403064601429
+"Türkiye","Level of production","Wheat",0.570746575534972
+"Türkiye","Level of production","Maize",0.583794501644358
+"Türkiye","Level of production","Sugar",0.366414205486995
+"Türkiye","Level of production","Beef and veal",0.630788628351205
+"Türkiye","Level of consumption (at farm gate)","Wheat",0.909156206403897
+"Türkiye","Level of consumption (at farm gate)","Maize",0.17042434835186
+"Türkiye","Level of consumption (at farm gate)","Sugar",0.547069805964797
+"Türkiye","Level of consumption (at farm gate)","Beef and veal",0.137076024886009
+"Türkiye","Producer price (at farm gate)","Wheat",0.968844078175411
+"Türkiye","Producer price (at farm gate)","Maize",0.888813555072174
+"Türkiye","Producer price (at farm gate)","Sugar",0.545895992600163
+"Türkiye","Producer price (at farm gate)","Beef and veal",0.97385010943233
+"Türkiye","Consumption price","Wheat",0.968844078175411
+"Türkiye","Consumption price","Maize",0.888813555072174
+"Türkiye","Consumption price","Sugar",0.545895992600163
+"Türkiye","Consumption price","Beef and veal",0.97385010943233
+"Türkiye","Market Price Differential","Maize",0.623415230822467
+"Türkiye","Market Price Differential","Sugar",0.523795133112025
+"Türkiye","Market Price Differential","Beef and veal",0.86113268402247
+"United Kingdom","Level of production","Wheat",NA
+"United Kingdom","Level of production","Maize",NA
+"United Kingdom","Level of production","Oats",NA
+"United Kingdom","Level of production","Sugar",NA
+"United Kingdom","Level of production","Beef and veal",NA
+"United Kingdom","Level of consumption (at farm gate)","Wheat",NA
+"United Kingdom","Level of consumption (at farm gate)","Maize",NA
+"United Kingdom","Level of consumption (at farm gate)","Oats",NA
+"United Kingdom","Level of consumption (at farm gate)","Sugar",NA
+"United Kingdom","Level of consumption (at farm gate)","Beef and veal",NA
+"United Kingdom","Producer price (at farm gate)","Wheat",NA
+"United Kingdom","Producer price (at farm gate)","Maize",NA
+"United Kingdom","Producer price (at farm gate)","Oats",NA
+"United Kingdom","Producer price (at farm gate)","Sugar",NA
+"United Kingdom","Producer price (at farm gate)","Beef and veal",NA
+"United Kingdom","Consumption price","Wheat",NA
+"United Kingdom","Consumption price","Maize",NA
+"United Kingdom","Consumption price","Oats",NA
+"United Kingdom","Consumption price","Sugar",NA
+"United Kingdom","Consumption price","Beef and veal",NA
+"United Kingdom","Market Price Differential","Maize",NA
+"United Kingdom","Market Price Differential","Oats",NA
+"United Kingdom","Market Price Differential","Sugar",NA
+"United Kingdom","Market Price Differential","Beef and veal",NA
+"United States","Level of production","Wheat",0.01
+"United States","Level of production","Maize",0.529411330701042
+"United States","Level of production","Rice",0.01
+"United States","Level of production","Sugar",0.472325698505767
+"United States","Level of production","Soybeans",0.526011683044076
+"United States","Level of production","Beef and veal",0.726523061602536
+"United States","Level of consumption (at farm gate)","Wheat",0.604630236911893
+"United States","Level of consumption (at farm gate)","Maize",0.676468010585577
+"United States","Level of consumption (at farm gate)","Rice",0.961132468801665
+"United States","Level of consumption (at farm gate)","Sugar",0.971035471487852
+"United States","Level of consumption (at farm gate)","Soybeans",0.268653541808091
+"United States","Level of consumption (at farm gate)","Beef and veal",0.975670214423537
+"United States","Producer price (at farm gate)","Wheat",0.729839538478723
+"United States","Producer price (at farm gate)","Maize",0.65235739168393
+"United States","Producer price (at farm gate)","Rice",0.062296222010804
+"United States","Producer price (at farm gate)","Sugar",0.509676743872044
+"United States","Producer price (at farm gate)","Soybeans",0.794916540604294
+"United States","Producer price (at farm gate)","Beef and veal",0.858704416630845
+"United States","Consumption price","Wheat",0.729839538478723
+"United States","Consumption price","Maize",0.65235739168393
+"United States","Consumption price","Rice",0.062296222010804
+"United States","Consumption price","Sugar",0.390494096357132
+"United States","Consumption price","Soybeans",0.794916540604294
+"United States","Consumption price","Beef and veal",0.858704416630845
+"United States","Market Price Differential","Maize",NA
+"United States","Market Price Differential","Rice",NA
+"United States","Market Price Differential","Sugar",0.660106491076342
+"United States","Market Price Differential","Soybeans",NA
+"United States","Market Price Differential","Beef and veal",NA
+"Argentina","Level of production","Wheat",0.48736447451468
+"Argentina","Level of production","Maize",0.0731831158138761
+"Argentina","Level of production","Soybeans",0.761713859287856
+"Argentina","Level of production","Beef and veal",0.832289528966967
+"Argentina","Level of consumption (at farm gate)","Wheat",0.52917206739072
+"Argentina","Level of consumption (at farm gate)","Maize",0.613017554179638
+"Argentina","Level of consumption (at farm gate)","Soybeans",0.99
+"Argentina","Level of consumption (at farm gate)","Beef and veal",0.0578929685511408
+"Argentina","Producer price (at farm gate)","Wheat",0.390258447563582
+"Argentina","Producer price (at farm gate)","Maize",0.501223156895294
+"Argentina","Producer price (at farm gate)","Soybeans",0.500859006924106
+"Argentina","Producer price (at farm gate)","Beef and veal",0.903320525503582
+"Argentina","Consumption price","Wheat",0.390258447563582
+"Argentina","Consumption price","Maize",0.501223156895294
+"Argentina","Consumption price","Soybeans",0.500859006924106
+"Argentina","Consumption price","Beef and veal",0.903320525503582
+"Argentina","Market Price Differential","Maize",0.655957057366155
+"Argentina","Market Price Differential","Soybeans",0.925226481404182
+"Argentina","Market Price Differential","Beef and veal",0.210338992384153
+"Brazil","Level of production","Wheat",0.143018402539077
+"Brazil","Level of production","Maize",0.668355685428659
+"Brazil","Level of production","Rice",0.404113687184839
+"Brazil","Level of production","Sugar",0.01
+"Brazil","Level of production","Soybeans",0.655662168942578
+"Brazil","Level of production","Beef and veal",0.119232981219879
+"Brazil","Level of production","Coffee",0.419122912670449
+"Brazil","Level of consumption (at farm gate)","Wheat",0.171138234256853
+"Brazil","Level of consumption (at farm gate)","Maize",0.630804821391161
+"Brazil","Level of consumption (at farm gate)","Rice",0.500996576825553
+"Brazil","Level of consumption (at farm gate)","Sugar",0.781111451794885
+"Brazil","Level of consumption (at farm gate)","Soybeans",0.554520585154572
+"Brazil","Level of consumption (at farm gate)","Beef and veal",0.972781299115595
+"Brazil","Level of consumption (at farm gate)","Coffee",0.628975722878943
+"Brazil","Producer price (at farm gate)","Wheat",0.499473828956301
+"Brazil","Producer price (at farm gate)","Maize",0.580867700656955
+"Brazil","Producer price (at farm gate)","Rice",0.268629218795631
+"Brazil","Producer price (at farm gate)","Sugar",0.71946259992106
+"Brazil","Producer price (at farm gate)","Soybeans",0.585573231225426
+"Brazil","Producer price (at farm gate)","Beef and veal",0.801793256087468
+"Brazil","Producer price (at farm gate)","Coffee",0.788503148623588
+"Brazil","Consumption price","Wheat",0.499473828956301
+"Brazil","Consumption price","Maize",0.580867700656955
+"Brazil","Consumption price","Rice",0.268629218795631
+"Brazil","Consumption price","Sugar",0.71946259992106
+"Brazil","Consumption price","Soybeans",0.585573231225426
+"Brazil","Consumption price","Beef and veal",0.801793256087468
+"Brazil","Consumption price","Coffee",0.788503148623588
+"Brazil","Market Price Differential","Maize",0.799191623798499
+"Brazil","Market Price Differential","Rice",0.965743522619839
+"Brazil","Market Price Differential","Sugar",NA
+"Brazil","Market Price Differential","Soybeans",0.542015963570633
+"Brazil","Market Price Differential","Beef and veal",0.281184220999439
+"Brazil","Market Price Differential","Coffee",NA
+"Chile","Level of production","Wheat",0.468334899973007
+"Chile","Level of production","Maize",0.99
+"Chile","Level of production","Sugar",0.423432633352175
+"Chile","Level of production","Beef and veal",0.0219834531644574
+"Chile","Level of consumption (at farm gate)","Wheat",0.468893613916439
+"Chile","Level of consumption (at farm gate)","Maize",0.449260877807713
+"Chile","Level of consumption (at farm gate)","Sugar",0.820594957990932
+"Chile","Level of consumption (at farm gate)","Beef and veal",0.503615309990625
+"Chile","Producer price (at farm gate)","Wheat",0.209862032666218
+"Chile","Producer price (at farm gate)","Maize",0.640652446469571
+"Chile","Producer price (at farm gate)","Sugar",0.848270849392548
+"Chile","Producer price (at farm gate)","Beef and veal",0.710457136913186
+"Chile","Consumption price","Wheat",0.209862032666218
+"Chile","Consumption price","Maize",0.640652446469571
+"Chile","Consumption price","Sugar",0.848270849392548
+"Chile","Consumption price","Beef and veal",0.710457136913186
+"Chile","Market Price Differential","Maize",0.902399962940455
+"Chile","Market Price Differential","Sugar",0.01
+"Chile","Market Price Differential","Beef and veal",NA
+"China (People's Republic of)","Level of production","Wheat",0.926728383226842
+"China (People's Republic of)","Level of production","Maize",0.833591908704111
+"China (People's Republic of)","Level of production","Rice",0.967632768600899
+"China (People's Republic of)","Level of production","Sugar",0.138123294205984
+"China (People's Republic of)","Level of production","Soybeans",0.984303438786816
+"China (People's Republic of)","Level of production","Beef and veal",0.63905049736713
+"China (People's Republic of)","Level of consumption (at farm gate)","Wheat",0.739338600556069
+"China (People's Republic of)","Level of consumption (at farm gate)","Maize",0.491017802423737
+"China (People's Republic of)","Level of consumption (at farm gate)","Rice",0.633348197031729
+"China (People's Republic of)","Level of consumption (at farm gate)","Sugar",0.0137513644496582
+"China (People's Republic of)","Level of consumption (at farm gate)","Soybeans",0.01
+"China (People's Republic of)","Level of consumption (at farm gate)","Beef and veal",0.259031621897892
+"China (People's Republic of)","Producer price (at farm gate)","Wheat",0.931582427051117
+"China (People's Republic of)","Producer price (at farm gate)","Maize",0.536575047656871
+"China (People's Republic of)","Producer price (at farm gate)","Rice",0.876606061572697
+"China (People's Republic of)","Producer price (at farm gate)","Sugar",0.847237315091472
+"China (People's Republic of)","Producer price (at farm gate)","Soybeans",0.580694892457555
+"China (People's Republic of)","Producer price (at farm gate)","Beef and veal",0.663828595743189
+"China (People's Republic of)","Consumption price","Wheat",0.931582427051117
+"China (People's Republic of)","Consumption price","Maize",0.536575047656871
+"China (People's Republic of)","Consumption price","Rice",0.876606061572697
+"China (People's Republic of)","Consumption price","Sugar",0.847237315091472
+"China (People's Republic of)","Consumption price","Soybeans",0.580694892457555
+"China (People's Republic of)","Consumption price","Beef and veal",0.663828595743189
+"China (People's Republic of)","Market Price Differential","Maize",0.396932246656378
+"China (People's Republic of)","Market Price Differential","Rice",0.607044632516577
+"China (People's Republic of)","Market Price Differential","Sugar",0.384861597521176
+"China (People's Republic of)","Market Price Differential","Soybeans",0.338239779799477
+"China (People's Republic of)","Market Price Differential","Beef and veal",0.820177986571535
+"India","Level of production","Wheat",0.452814449391708
+"India","Level of production","Maize",0.545712086156222
+"India","Level of production","Rice",0.928295400776799
+"India","Level of production","Sugar",0.0988976044057058
+"India","Level of production","Soybeans",0.425162375994623
+"India","Level of production","Beef and veal",0.527885936769328
+"India","Level of consumption (at farm gate)","Wheat",0.430478131597074
+"India","Level of consumption (at farm gate)","Maize",0.630334505552259
+"India","Level of consumption (at farm gate)","Rice",0.42066267715795
+"India","Level of consumption (at farm gate)","Sugar",0.0844932905854535
+"India","Level of consumption (at farm gate)","Soybeans",0.518748866122802
+"India","Level of consumption (at farm gate)","Beef and veal",0.99
+"India","Producer price (at farm gate)","Wheat",0.565269369672954
+"India","Producer price (at farm gate)","Maize",0.922220196950075
+"India","Producer price (at farm gate)","Rice",0.99
+"India","Producer price (at farm gate)","Sugar",0.618214281700155
+"India","Producer price (at farm gate)","Soybeans",0.822682688091547
+"India","Producer price (at farm gate)","Beef and veal",0.139621369876357
+"India","Consumption price","Wheat",0.565269369672954
+"India","Consumption price","Maize",0.922220196950075
+"India","Consumption price","Rice",0.99
+"India","Consumption price","Sugar",0.618214281700155
+"India","Consumption price","Soybeans",0.822682688091547
+"India","Consumption price","Beef and veal",0.139621369876357
+"India","Market Price Differential","Maize",0.724218548974274
+"India","Market Price Differential","Rice",0.520021368439758
+"India","Market Price Differential","Sugar",0.48040426856442
+"India","Market Price Differential","Soybeans",0.932227769968716
+"India","Market Price Differential","Beef and veal",0.648932452426714
+"Israel","Level of production","Wheat",0.597231520007749
+"Israel","Level of production","Beef and veal",0.195661221289886
+"Israel","Level of consumption (at farm gate)","Wheat",0.730152868961569
+"Israel","Level of consumption (at farm gate)","Beef and veal",0.382183083112316
+"Israel","Producer price (at farm gate)","Wheat",0.656459383783415
+"Israel","Producer price (at farm gate)","Beef and veal",0.641845066893507
+"Israel","Consumption price","Wheat",0.656459383783415
+"Israel","Consumption price","Beef and veal",0.641845066893507
+"Israel","Market Price Differential","Beef and veal",0.563882518401407
+"Kazakhstan","Level of production","Wheat",0.302503236370275
+"Kazakhstan","Level of production","Maize",0.572428887381644
+"Kazakhstan","Level of production","Rice",0.580072328982906
+"Kazakhstan","Level of production","Beef and veal",0.944526030420249
+"Kazakhstan","Level of consumption (at farm gate)","Wheat",0.920890018776485
+"Kazakhstan","Level of consumption (at farm gate)","Maize",0.384002138287419
+"Kazakhstan","Level of consumption (at farm gate)","Rice",0.01
+"Kazakhstan","Level of consumption (at farm gate)","Beef and veal",0.907205589825561
+"Kazakhstan","Producer price (at farm gate)","Wheat",0.278184837651617
+"Kazakhstan","Producer price (at farm gate)","Maize",0.383071293199117
+"Kazakhstan","Producer price (at farm gate)","Rice",0.249558323461196
+"Kazakhstan","Producer price (at farm gate)","Beef and veal",0.549082166606721
+"Kazakhstan","Consumption price","Wheat",0.278184837651617
+"Kazakhstan","Consumption price","Maize",0.383071293199117
+"Kazakhstan","Consumption price","Rice",0.249558323461196
+"Kazakhstan","Consumption price","Beef and veal",0.549082166606721
+"Kazakhstan","Market Price Differential","Maize",0.0198216653551273
+"Kazakhstan","Market Price Differential","Rice",0.188618261739645
+"Kazakhstan","Market Price Differential","Beef and veal",0.523511539791033
+"Russia","Level of production","Wheat",0.806085260998269
+"Russia","Level of production","Maize",0.805822057764976
+"Russia","Level of production","Oats",0.439562385343562
+"Russia","Level of production","Sugar",0.120516710266937
+"Russia","Level of production","Beef and veal",0.622581513362608
+"Russia","Level of consumption (at farm gate)","Wheat",0.838143235340055
+"Russia","Level of consumption (at farm gate)","Maize",0.49358866499482
+"Russia","Level of consumption (at farm gate)","Oats",0.01
+"Russia","Level of consumption (at farm gate)","Sugar",0.370281684601902
+"Russia","Level of consumption (at farm gate)","Beef and veal",0.539409083444839
+"Russia","Producer price (at farm gate)","Wheat",0.718861155404146
+"Russia","Producer price (at farm gate)","Maize",0.469750533019257
+"Russia","Producer price (at farm gate)","Oats",0.545814840955881
+"Russia","Producer price (at farm gate)","Sugar",0.681266782734495
+"Russia","Producer price (at farm gate)","Beef and veal",0.614097448124359
+"Russia","Consumption price","Wheat",0.718861155404146
+"Russia","Consumption price","Maize",0.469750533019257
+"Russia","Consumption price","Oats",0.545814840955881
+"Russia","Consumption price","Sugar",0.681266782734495
+"Russia","Consumption price","Beef and veal",0.614097448124359
+"Russia","Market Price Differential","Maize",0.310120253277564
+"Russia","Market Price Differential","Oats",0.644669121799054
+"Russia","Market Price Differential","Sugar",0.434181288348969
+"Russia","Market Price Differential","Beef and veal",0.557492970196075
+"South Africa","Level of production","Wheat",0.430650719967982
+"South Africa","Level of production","Maize",0.450573762571126
+"South Africa","Level of production","Sugar",0.641141324130982
+"South Africa","Level of production","Beef and veal",0.65185689393637
+"South Africa","Level of consumption (at farm gate)","Wheat",0.330589251277781
+"South Africa","Level of consumption (at farm gate)","Maize",0.851907973821839
+"South Africa","Level of consumption (at farm gate)","Sugar",0.918879961443247
+"South Africa","Level of consumption (at farm gate)","Beef and veal",0.667012246935401
+"South Africa","Producer price (at farm gate)","Wheat",0.489387788041725
+"South Africa","Producer price (at farm gate)","Maize",0.916505541563086
+"South Africa","Producer price (at farm gate)","Sugar",0.784718347016369
+"South Africa","Producer price (at farm gate)","Beef and veal",0.192837055707306
+"South Africa","Consumption price","Wheat",0.207943516300433
+"South Africa","Consumption price","Maize",0.786813587644202
+"South Africa","Consumption price","Sugar",0.784718347016369
+"South Africa","Consumption price","Beef and veal",0.192837055707306
+"South Africa","Market Price Differential","Maize",NA
+"South Africa","Market Price Differential","Sugar",0.494066279391306
+"South Africa","Market Price Differential","Beef and veal",0.01
+"Ukraine","Level of production","Wheat",0.448405558638263
+"Ukraine","Level of production","Maize",0.740046955021689
+"Ukraine","Level of production","Oats",0.267939123832598
+"Ukraine","Level of production","Sugar",0.0693915040345813
+"Ukraine","Level of production","Beef and veal",0.156158843648479
+"Ukraine","Level of consumption (at farm gate)","Wheat",0.250773776405516
+"Ukraine","Level of consumption (at farm gate)","Maize",0.977975230494735
+"Ukraine","Level of consumption (at farm gate)","Oats",0.498532298485156
+"Ukraine","Level of consumption (at farm gate)","Sugar",0.625286257007317
+"Ukraine","Level of consumption (at farm gate)","Beef and veal",0.657080632480531
+"Ukraine","Producer price (at farm gate)","Wheat",0.469980732961075
+"Ukraine","Producer price (at farm gate)","Maize",0.582854500949587
+"Ukraine","Producer price (at farm gate)","Oats",0.617386295351761
+"Ukraine","Producer price (at farm gate)","Sugar",0.0572339271893472
+"Ukraine","Producer price (at farm gate)","Beef and veal",0.274422389825545
+"Ukraine","Consumption price","Wheat",0.469980732961075
+"Ukraine","Consumption price","Maize",0.582854500949587
+"Ukraine","Consumption price","Oats",0.617386295351761
+"Ukraine","Consumption price","Sugar",0.0572339271893472
+"Ukraine","Consumption price","Beef and veal",0.274422389825545
+"Ukraine","Market Price Differential","Maize",0.253291874370895
+"Ukraine","Market Price Differential","Oats",0.346758357908771
+"Ukraine","Market Price Differential","Sugar",0.253245361891675
+"Ukraine","Market Price Differential","Beef and veal",0.625547194569189
+"European Union","Level of production","Wheat",0.369700123961069
+"European Union","Level of production","Maize",0.455810877355195
+"European Union","Level of production","Oats",0.809468370311498
+"European Union","Level of production","Rice",0.53953468730276
+"European Union","Level of production","Sugar",0.924378354607597
+"European Union","Level of production","Soybeans",0.684385361988909
+"European Union","Level of production","Beef and veal",0.458490877695517
+"European Union","Level of consumption (at farm gate)","Wheat",0.575371684065583
+"European Union","Level of consumption (at farm gate)","Maize",0.502165798165889
+"European Union","Level of consumption (at farm gate)","Oats",0.327352932487656
+"European Union","Level of consumption (at farm gate)","Rice",0.363957811831154
+"European Union","Level of consumption (at farm gate)","Sugar",0.248744332718327
+"European Union","Level of consumption (at farm gate)","Soybeans",0.456555663989343
+"European Union","Level of consumption (at farm gate)","Beef and veal",0.443020373356669
+"European Union","Producer price (at farm gate)","Wheat",0.81240141524989
+"European Union","Producer price (at farm gate)","Maize",0.883855998918968
+"European Union","Producer price (at farm gate)","Oats",0.753738712365684
+"European Union","Producer price (at farm gate)","Rice",0.0275792375646163
+"European Union","Producer price (at farm gate)","Sugar",0.0107806917380075
+"European Union","Producer price (at farm gate)","Soybeans",0.246879192403343
+"European Union","Producer price (at farm gate)","Beef and veal",0.916012750292698
+"European Union","Consumption price","Wheat",0.812074233593906
+"European Union","Consumption price","Maize",0.883855998918968
+"European Union","Consumption price","Oats",0.753738712365684
+"European Union","Consumption price","Rice",0.0275792375646163
+"European Union","Consumption price","Sugar",0.0200468763269839
+"European Union","Consumption price","Soybeans",0.246879192403343
+"European Union","Consumption price","Beef and veal",0.916012750292698
+"European Union","Market Price Differential","Maize",0.01
+"European Union","Market Price Differential","Oats",NA
+"European Union","Market Price Differential","Rice",0.604609013958372
+"European Union","Market Price Differential","Sugar",0.127304235378352
+"European Union","Market Price Differential","Soybeans",NA
+"European Union","Market Price Differential","Beef and veal",0.288360164976375
+"OECD - Total","Level of production","Wheat",0.523270538858342
+"OECD - Total","Level of production","Maize",0.576812084018878
+"OECD - Total","Level of production","Oats",0.817599794921378
+"OECD - Total","Level of production","Rice",0.01
+"OECD - Total","Level of production","Sugar",0.382304166887237
+"OECD - Total","Level of production","Soybeans",0.550651226729196
+"OECD - Total","Level of production","Beef and veal",0.326814020345693
+"OECD - Total","Level of production","Coffee",0.140984295240796
+"OECD - Total","Level of consumption (at farm gate)","Wheat",0.552057924346045
+"OECD - Total","Level of consumption (at farm gate)","Maize",0.797866923951544
+"OECD - Total","Level of consumption (at farm gate)","Oats",0.275918820223968
+"OECD - Total","Level of consumption (at farm gate)","Rice",0.960185760804386
+"OECD - Total","Level of consumption (at farm gate)","Sugar",0.74442126783713
+"OECD - Total","Level of consumption (at farm gate)","Soybeans",0.0905384946309369
+"OECD - Total","Level of consumption (at farm gate)","Beef and veal",0.73044524540577
+"OECD - Total","Level of consumption (at farm gate)","Coffee",0.578343617148552
+"Colombia","Level of production","Maize",0.589889935863911
+"Colombia","Level of production","Rice",0.918305866800408
+"Colombia","Level of production","Sugar",0.550070456811118
+"Colombia","Level of production","Beef and veal",0.506210749280741
+"Colombia","Level of production","Coffee",0.214495650726149
+"Colombia","Level of consumption (at farm gate)","Maize",0.565824974559199
+"Colombia","Level of consumption (at farm gate)","Rice",0.300708810166718
+"Colombia","Level of consumption (at farm gate)","Sugar",0.132280223791316
+"Colombia","Level of consumption (at farm gate)","Beef and veal",0.734332714510048
+"Colombia","Level of consumption (at farm gate)","Coffee",0.567594745338515
+"Colombia","Producer price (at farm gate)","Maize",0.98984740622398
+"Colombia","Producer price (at farm gate)","Rice",0.770440816028485
+"Colombia","Producer price (at farm gate)","Sugar",0.760598399947499
+"Colombia","Producer price (at farm gate)","Beef and veal",0.845596239047621
+"Colombia","Producer price (at farm gate)","Coffee",0.619498796620249
+"Colombia","Consumption price","Maize",0.98984740622398
+"Colombia","Consumption price","Rice",0.770440816028485
+"Colombia","Consumption price","Sugar",0.760598399947499
+"Colombia","Consumption price","Beef and veal",0.845596239047621
+"Colombia","Consumption price","Coffee",0.619498796620249
+"Colombia","Market Price Differential","Maize",0.201342805795452
+"Colombia","Market Price Differential","Rice",0.863329855940272
+"Colombia","Market Price Differential","Sugar",0.796307942574002
+"Colombia","Market Price Differential","Beef and veal",0.193017860512176
+"Colombia","Market Price Differential","Coffee",0.154513825524916
+"Indonesia","Level of production","Maize",0.0880018958075041
+"Indonesia","Level of production","Rice",0.977568605724031
+"Indonesia","Level of production","Sugar",0.360558151982588
+"Indonesia","Level of production","Soybeans",0.0218090359018446
+"Indonesia","Level of production","Beef and veal",0.804380354372123
+"Indonesia","Level of production","Coffee",0.865868698356378
+"Indonesia","Level of consumption (at farm gate)","Maize",0.866043463576323
+"Indonesia","Level of consumption (at farm gate)","Rice",0.728488856383844
+"Indonesia","Level of consumption (at farm gate)","Sugar",0.784113776676317
+"Indonesia","Level of consumption (at farm gate)","Soybeans",0.577810166015069
+"Indonesia","Level of consumption (at farm gate)","Beef and veal",0.475801386168855
+"Indonesia","Level of consumption (at farm gate)","Coffee",0.692352928307085
+"Indonesia","Producer price (at farm gate)","Maize",0.99
+"Indonesia","Producer price (at farm gate)","Rice",0.940396325934596
+"Indonesia","Producer price (at farm gate)","Sugar",0.57167109342977
+"Indonesia","Producer price (at farm gate)","Soybeans",0.897068996617412
+"Indonesia","Producer price (at farm gate)","Beef and veal",0.367292943010931
+"Indonesia","Producer price (at farm gate)","Coffee",0.285098149532079
+"Indonesia","Consumption price","Maize",0.99
+"Indonesia","Consumption price","Rice",0.940396325934596
+"Indonesia","Consumption price","Sugar",0.57167109342977
+"Indonesia","Consumption price","Soybeans",0.897068996617412
+"Indonesia","Consumption price","Beef and veal",0.367292943010931
+"Indonesia","Consumption price","Coffee",0.285098149532079
+"Indonesia","Market Price Differential","Maize",0.438868999824214
+"Indonesia","Market Price Differential","Rice",0.976307666924237
+"Indonesia","Market Price Differential","Sugar",0.69882207895848
+"Indonesia","Market Price Differential","Soybeans",0.634350531807012
+"Indonesia","Market Price Differential","Beef and veal",0.573923468056111
+"Indonesia","Market Price Differential","Coffee",NA
+"Philippines","Level of production","Maize",0.0828310122491085
+"Philippines","Level of production","Rice",0.46488022902617
+"Philippines","Level of production","Sugar",0.346807238084462
+"Philippines","Level of production","Beef and veal",0.964278209189672
+"Philippines","Level of consumption (at farm gate)","Maize",0.621759821523937
+"Philippines","Level of consumption (at farm gate)","Rice",0.441546113271782
+"Philippines","Level of consumption (at farm gate)","Sugar",0.761926906878912
+"Philippines","Level of consumption (at farm gate)","Beef and veal",0.99
+"Philippines","Producer price (at farm gate)","Maize",0.952672472901601
+"Philippines","Producer price (at farm gate)","Rice",0.989343875654063
+"Philippines","Producer price (at farm gate)","Sugar",0.835207885456195
+"Philippines","Producer price (at farm gate)","Beef and veal",0.155594086109776
+"Philippines","Consumption price","Maize",0.952672472901601
+"Philippines","Consumption price","Rice",0.989343875654063
+"Philippines","Consumption price","Sugar",0.835207885456195
+"Philippines","Consumption price","Beef and veal",0.155594086109776
+"Philippines","Market Price Differential","Maize",0.605149835278486
+"Philippines","Market Price Differential","Rice",0.693134278530772
+"Philippines","Market Price Differential","Sugar",0.43754468870781
+"Philippines","Market Price Differential","Beef and veal",0.155594086414499
+"Viet Nam","Level of production","Maize",0.99
+"Viet Nam","Level of production","Rice",0.966417763596924
+"Viet Nam","Level of production","Sugar",0.99
+"Viet Nam","Level of production","Beef and veal",0.0708353178780542
+"Viet Nam","Level of production","Coffee",0.673830822637455
+"Viet Nam","Level of consumption (at farm gate)","Maize",0.658929210340575
+"Viet Nam","Level of consumption (at farm gate)","Rice",0.986965060328956
+"Viet Nam","Level of consumption (at farm gate)","Sugar",0.70047448018579
+"Viet Nam","Level of consumption (at farm gate)","Beef and veal",0.99
+"Viet Nam","Level of consumption (at farm gate)","Coffee",0.553397216392339
+"Viet Nam","Producer price (at farm gate)","Maize",0.93570660140301
+"Viet Nam","Producer price (at farm gate)","Rice",0.469114125251722
+"Viet Nam","Producer price (at farm gate)","Sugar",0.653318114627307
+"Viet Nam","Producer price (at farm gate)","Beef and veal",0.539227537592865
+"Viet Nam","Producer price (at farm gate)","Coffee",0.797810019611853
+"Viet Nam","Consumption price","Maize",0.93570660140301
+"Viet Nam","Consumption price","Rice",0.469114125251722
+"Viet Nam","Consumption price","Sugar",0.653318114627307
+"Viet Nam","Consumption price","Beef and veal",0.539227537592865
+"Viet Nam","Consumption price","Coffee",0.797810019611853
+"Viet Nam","Market Price Differential","Maize",0.308006486548982
+"Viet Nam","Market Price Differential","Rice",0.731144299425693
+"Viet Nam","Market Price Differential","Sugar",0.910404046257509
+"Viet Nam","Market Price Differential","Beef and veal",0.474169978709871
+"Viet Nam","Market Price Differential","Coffee",0.01
+"Korea","Level of production","Rice",0.272463289899993
+"Korea","Level of production","Soybeans",0.393167659819458
+"Korea","Level of production","Beef and veal",0.794725164435348
+"Korea","Level of consumption (at farm gate)","Rice",0.019267818293557
+"Korea","Level of consumption (at farm gate)","Soybeans",0.411325751180079
+"Korea","Level of consumption (at farm gate)","Beef and veal",0.339036304034545
+"Korea","Producer price (at farm gate)","Rice",0.0854650250523195
+"Korea","Producer price (at farm gate)","Soybeans",0.238885347612579
+"Korea","Producer price (at farm gate)","Beef and veal",0.233103511431043
+"Korea","Consumption price","Rice",0.0854650250523195
+"Korea","Consumption price","Soybeans",0.379480149824078
+"Korea","Consumption price","Beef and veal",0.233103511431043
+"Korea","Market Price Differential","Rice",0.01
+"Korea","Market Price Differential","Soybeans",0.173306819086267
+"Korea","Market Price Differential","Beef and veal",0.282334752877956
+"Costa Rica","Level of production","Rice",0.253824167153754
+"Costa Rica","Level of production","Sugar",0.76258058086625
+"Costa Rica","Level of production","Beef and veal",0.427086508011056
+"Costa Rica","Level of production","Coffee",0.356967053174233
+"Costa Rica","Level of consumption (at farm gate)","Rice",0.459295269370208
+"Costa Rica","Level of consumption (at farm gate)","Sugar",0.01
+"Costa Rica","Level of consumption (at farm gate)","Beef and veal",0.32166797296627
+"Costa Rica","Level of consumption (at farm gate)","Coffee",0.12237685210173
+"Costa Rica","Producer price (at farm gate)","Rice",0.567082010778481
+"Costa Rica","Producer price (at farm gate)","Sugar",0.910947225227428
+"Costa Rica","Producer price (at farm gate)","Beef and veal",0.795326146753358
+"Costa Rica","Producer price (at farm gate)","Coffee",0.631050396182822
+"Costa Rica","Consumption price","Rice",0.567082010778481
+"Costa Rica","Consumption price","Sugar",0.910947225227428
+"Costa Rica","Consumption price","Beef and veal",0.795326146753358
+"Costa Rica","Consumption price","Coffee",0.631050396182822
+"Costa Rica","Market Price Differential","Rice",0.749314850675204
+"Costa Rica","Market Price Differential","Sugar",0.722704092615795
+"Costa Rica","Market Price Differential","Beef and veal",0.01
+"Costa Rica","Market Price Differential","Coffee",NA
+"Iceland","Level of production","Beef and veal",0.520802068759126
+"Iceland","Level of consumption (at farm gate)","Beef and veal",0.455040210240842
+"Iceland","Producer price (at farm gate)","Beef and veal",0.360170063252061
+"Iceland","Consumption price","Beef and veal",0.360170063252061
+"Iceland","Market Price Differential","Beef and veal",0.0937616981500616
