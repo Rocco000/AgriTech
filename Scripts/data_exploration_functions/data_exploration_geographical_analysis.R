@@ -138,6 +138,17 @@ main_geographical_analysis <- function(ds){
   
   ggsave("Data/DataExploration/updated_countries_per_continent.png")
   
+  #Pie plot
+  ggplot(num_countries_per_continent_in_ds, aes(x = "", y = Countries_in_dataset, fill=Continent)) +
+    geom_bar(stat = "identity", width = 1) +
+    coord_polar("y", start=0) +
+    labs(title = "Number of countries per continent in dataset", x = "", y = "") +
+    theme_void() +
+    scale_fill_brewer(palette = "Set1")
+  
+  ggsave("Data/DataExploration/countries_per_continent_pie.png")
+  
+  
   # Plot the countries coverage
   plot_countries_coverage(num_countries_per_continent_in_ds, "Data/DataExploration/countries_coverage.png", "Data/DataExploration/countries_coverage2.png")
 }
