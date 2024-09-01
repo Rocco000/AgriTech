@@ -63,9 +63,10 @@ years <- c(2005, 2008, 2015, 2020)
 # Filter the data for selected years
 conf_intervals <- conf_intervals %>% filter(Time %in% years)
 
-# Plot the confidence intervals
+# Plot the confidence intervals only if the data is normally distributed
+conf_intervals <- conf_intervals %>% filter(Indicator %in% c("Level of consumption (at farm gate)", "Level of production"))
 ggplot(conf_intervals, aes(x = Time, y = mean_value, color = Indicator)) +
-  geom_point() +  # Punto per la media
+  geom_point() +
   geom_errorbar(aes(ymin = lower_CI, ymax = upper_CI), width = 0.2) +  
   facet_wrap(~ Indicator, scales = "free_y") +  
   labs(title = "99% confidence intervals",
