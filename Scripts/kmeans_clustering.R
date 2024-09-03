@@ -74,18 +74,18 @@ kmeans_clustering <- function(data, year, k) {
 
 
 calculate_between_total_ratio <- function(kmeans_result, data) {
-  # Calcola il centroide globale
+  # Calculate the global mean
   global_mean <- colMeans(data)
   
-  # Calcola la somma delle distanze quadre totali (total sum of squares)
+  # Calculate the total sum of squares
   total_ss <- sum(rowSums((data - global_mean)^2))
   
-  # Calcola la somma delle distanze quadre tra i cluster (between sum of squares)
+  # Calculate the between sum of squares
   cluster_means <- kmeans_result$centers
   sizes <- kmeans_result$size
   between_ss <- sum(sizes * rowSums((cluster_means - global_mean)^2))
   
-  # Calcola il rapporto between/total
+  # Compute between/total
   ratio <- between_ss / total_ss
   return(ratio)
 }

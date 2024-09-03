@@ -2,7 +2,6 @@ library(dplyr)
 library(tidyr)
 library(forecast)
 
-# Carica il dataset
 dataset <- read.csv("Data/final_dataset.csv")
 
 incremental_estimate_past_years <- function(dataset){

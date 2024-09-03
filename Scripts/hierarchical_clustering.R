@@ -102,25 +102,20 @@ create_clusters_from_hclust <- function(hclust_result, scaled_data, aggregated_d
 }
 
 
-# Funzione per eseguire clustering e creare cluster basato su input manuale
 run_clustering_and_create_clusters <- function(filtered_dataset, years_of_interest, method) {
   all_results <- list()
   
   for (year in years_of_interest) {
-    # Esegui il clustering gerarchico
+    # Hierarchical clustering
     clustering_results <- hierarchical_clustering(filtered_dataset, year, method = method)
     
-    # Mostra i grafici Scree Plot e chiedi all'utente di inserire il numero ottimale di cluster
     optimal_k <- as.numeric(readline(prompt = paste("Insert the optimal number of clusters for ", year, " ", method, " clustering: ")))
     
-    # Crea i cluster utilizzando il numero ottimale
     final_results <- create_clusters_from_hclust(clustering_results$hclust_result, clustering_results$scaled_data, clustering_results$aggregated_data, optimal_k, year, method)
     
-    # Aggiungi i risultati finali alla lista
     all_results[[as.character(year)]] <- final_results
   }
   
-  # Combina i risultati in un unico dataframe
   combined_results <- bind_rows(all_results)
   
   return(combined_results)
@@ -143,17 +138,15 @@ filtered_dataset <- dataset %>%
            Time %in% years_of_interest)
 
 
-# Esegui il clustering gerarchico con legame completo
 combined_hierarchical_results_complete <- run_clustering_and_create_clusters(filtered_dataset, years_of_interest, method = "complete")
 
-# Esegui il clustering gerarchico con legame singolo
 combined_hierarchical_results_single <- run_clustering_and_create_clusters(filtered_dataset, years_of_interest, method = "single")
 
 #Save the results
 write.csv(combined_hierarchical_results_complete, "Data/Clustering/hierarchical_results_complete.csv")
 write.csv(combined_hierarchical_results_single, "Data/Clustering/hierarchical_results_single.csv")
 
-# Visualizza i risultati per il metodo completo
+# Plot the results complete method
 ggplot(combined_hierarchical_results_complete, aes(x = Year, y = Country, color = as.factor(Cluster), group = Country)) +
   geom_line(size = 1) +
   geom_point(size = 3) +
@@ -162,7 +155,7 @@ ggplot(combined_hierarchical_results_complete, aes(x = Year, y = Country, color 
 
 ggsave("Data/Clustering/hierarchical_cluster_movements_complete.png", width = 10, height = 8)
 
-# Visualizza i risultati per il metodo singolo
+# Plot the results single method
 ggplot(combined_hierarchical_results_single, aes(x = Year, y = Country, color = as.factor(Cluster), group = Country)) +
   geom_line(size = 1) +
   geom_point(size = 3) +
